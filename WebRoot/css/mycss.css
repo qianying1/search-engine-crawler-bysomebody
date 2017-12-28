@@ -1,0 +1,217 @@
+body {
+    /*background-color: #eee;*/
+    color: #444;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode","Lucida Grande", Tahoma,Arial, Helvetica, sans-serif;
+}
+
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+.mycontainer{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    left: 20px;
+    height: 100px;
+}
+/*header样式表*/
+.header_link{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.header_search{
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+#tbutton{
+    background-color:#F68D01;
+    color:White;
+    height:22px;
+    Width:51px;
+    cursor:pointer;
+}
+#tinfo{
+    width: 184px;
+    height: 20px;
+}
+/*article*/
+.mainWrap {
+    width: 1100px;
+    margin: auto;
+    min-width: 320px;
+}
+.content{
+    background-color: white;
+}
+.content .news {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content h2 {
+    font-size: 20px;
+    line-height: 70px;
+    color: #22132d;
+    text-indent: 22px;
+    zoom: 1;
+}
+.yahei {
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+a, a:link {
+    text-decoration: none;
+    color: #4F608C;
+}
+.content h2 .more {
+    float: right;
+    _display: inline;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #999;
+    margin-right: 22px;
+}
+ul, li {
+    list-style-type: none;
+}
+.content .newslist {
+    margin: 0 5px;
+    border-bottom: 1px solid #e9e8ea;
+    padding-bottom: 40px;
+    margin-bottom: 14px;
+}
+.content .newslist li {
+    float: left;
+    _display: inline;
+    width: 300px;
+    margin: 0 15px;
+}
+.ydate {
+    width: 58px;
+    border: 1px solid #d8d8d8;
+    color: #7d7d7d;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    _display: inline;
+    padding-bottom: 5px;
+}
+.ydate_2 {
+    border: 1px solid #edeaf1;
+    color: #5b317d;
+    background: #edeaf1;
+}
+.ydate span {
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 8px 0 2px 0;
+    zoom: 1;
+}
+.content .newslist .tn {
+    margin-left: 80px;
+    width: 220px;
+    _width: 217px;
+}
+h1, h2, h3, h4 {
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.content .newslist h3 a {
+    color: #22132D;
+    line-height: 22px;
+    font-size: 16px;
+}
+.content .newslist p {
+    color: #777;
+    padding-top: 8px;
+}
+.content .focusList {
+    margin: 0 5px;
+}
+.content .focusList li {
+    float: left;
+    _display: inline;
+    width: 300px;
+    margin: 0 15px 10px 15px;
+    border-top: 2px solid #5c307d;
+    height: 280px;
+    overflow: hidden;
+}
+.content .focusList h3 {
+    margin-top: 1.4em;
+}
+.content .focusList h3 a {
+    color: #22132D;
+    line-height: 22px;
+    font-size: 16px;
+}
+.content .focusList p {
+    color: #777;
+    padding-top: 8px;
+}
+.content .focusList li.alternative {
+    border-top: 2px solid #e0823d;
+}
+.content .focusList .isimg img {
+    width: 300px;
+}
+.content .focusList .isimg .tn {
+    margin: 0;
+    width: auto;
+}
+.content .focusList .isimg h3 {
+    margin-top: 15px;
+}
+
+/*footer样式表*/
+.footer .footWrap {
+    background: #eee;
+    padding: 40px 0;
+}
+.mainWrap {
+    width: 1100px;
+    margin: auto;
+    min-width: 320px;
+}
+.footer .footWrap li {
+    width: 125px;
+    float: left;
+    _display: inline;
+}
+.footer .footWrap h4 {
+    padding-bottom: 8px;
+}
+.footer .footWrap h4 a {
+    font-size: 15px;
+    color: #22132d;
+}
+.footer .footWrap a {
+    color: #585858;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+}
+
+.myfooter {
+    /*background-color: #e0e0e0;*/
+    font-size: 14px;
+    text-align: center;
+    clear: both;
+    font-family: "微软雅黑";
+    line-height: 22px;
+    color: #999;
+    padding: 15px;
+}
+
+
+
+
+

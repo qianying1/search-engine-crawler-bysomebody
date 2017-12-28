@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>GetNewsServlet</servlet-name>
+    <servlet-class>com.sohu.servlet.GetNewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetNewsServlet</servlet-name>
+    <url-pattern>/GetNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>com.sohu.servlet.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SortNewsServlet</servlet-name>
+    <servlet-class>com.sohu.servlet.SortNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DividePageServlet</servlet-name>
+    <servlet-class>com.sohu.servlet.DividePageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DisplayServlet</servlet-name>
+    <servlet-class>com.sohu.servlet.DisplayServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SortNewsServlet</servlet-name>
+    <url-pattern>/SortNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DividePageServlet</servlet-name>
+    <url-pattern>/DividePageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DisplayServlet</servlet-name>
+    <url-pattern>/DisplayServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>welcome.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,377 @@
+@charset "utf-8";
+/*common*/
+.condolence {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+_filter:none;
+}
+.layout{
+	width:1000px;
+	margin:0 auto;
+}
+.wrap{
+	width:100%;
+	margin:0 auto;
+}
+.top-left li a,.logo,.moto,.hd-search,#search-sbt,
+#banner .pre,#banner .next{background:url(http://www.just.edu.cn/statics/img/icon.png) no-repeat;}
+.moto2{background:url(http://www.just.edu.cn/statics/img/icon2.png) no-repeat;}
+
+/*header*/
+#header{
+	width:100%;
+	height:89px;
+	padding-top:8px;
+	overflow:hidden;
+	background:url(http://www.just.edu.cn/statics/img/bg.png) repeat-x 0 -43px;
+    background-color: #017ebc;
+}
+
+.header-right li{
+	float:left;
+	display:inline;
+}
+.header-right li.line{
+	width:0px;
+	height:12px;
+	overflow:hidden;
+	border-left:1px solid #989898;
+	margin:6px 10px;
+}
+.logo{
+	display:block;
+	width:82px;
+	height:80px;
+	margin-right:10px;
+	overflow:hidden;
+	text-indent:-999px;
+	background-position:0 -380px;
+}
+.moto{
+	width:700px;
+	height:80px;
+	overflow:hidden;
+	background-position:0 -290px;
+	text-indent:-999px;
+}
+
+.moto2{
+	width:700px;
+	height:80px;
+	overflow:hidden;
+	background-position:0 -290px;
+	text-indent:-999px;
+}
+
+.hd-search{
+	height:33px;
+	width:195px;
+	padding-left:45px;
+	overflow:hidden;
+	margin-top:23px;
+	line-height:33px;
+	background-position:0 -228px;
+}
+.hd-search input{
+	display:block;
+	float:left;
+	height:33px;
+	overflow:hidden;
+	border:none;
+	background:#FAFAFA;
+}
+#search-ipt{
+	width:160px;
+	height:30px;
+	line-height:30px;
+	margin-top:2px;
+	color:#666;
+}
+#search-sbt{
+	width:35px;
+	background-position:-205px -228px;
+	text-indent:-99px;
+	cursor:pointer;
+}
+/*main*/
+#main{
+	width:100%;
+	height:315px;
+	_height:315px;
+	overflow:hidden;
+	background:#E8e8e8;
+}
+.main-left{
+	width:295px;
+	height:405px;
+	padding: 20px 10px 10px 0;
+	background:url(http://www.just.edu.cn/statics/img/news-bg.png) no-repeat top right;
+}
+.main-nav{
+	margin-bottom:8px;
+}
+.main-nav li{
+	background:#9a9a9a;
+	float:left;
+	display:inline;
+	width:70px;
+	height:27px;
+	margin-right:10px;
+	font:normal 14px/27px Verdana, Geneva, sans-serif;
+	text-align:center;
+}
+.main-nav li a{color:#fff;}
+.main-nav li.current{ background:#327ab0;}
+.notice-list{
+	display:block;
+	height:220px;
+	 _height:315px; 
+	overflow:hidden;
+	position:relative;
+	/* list-style: square inside url('../img/black-dot.png');
+	_list-style:none inside none; */
+	
+}
+.notice-list li{
+	height:auto;
+	line-height:27px;
+	font-size:14px;
+	text-indent: 6px;
+	background:url('http://www.just.edu.cn/statics/img/black-dot.png') no-repeat 0 12px;
+}
+.notice-list span{color:#666;width:95%;display:block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.news-list{
+	display:block;
+	height:330px;
+	_height:305px;
+	overflow:hidden;
+	/* list-style: square inside url('../img/black-dot.png');
+	_list-style:none inside none; */
+	
+}
+.news-list li{
+	height:27px;
+	overflow:hidden;
+	line-height:27px;
+	font-size:14px;
+	text-indent: 10px;
+	background:url('http://www.just.edu.cn/statics/img/black-dot.png') no-repeat 0 15px;
+}
+.main-left .more{
+	padding-top:6px;
+	font-size:12px; 
+}
+
+/*中*/
+.main-mid{
+	width:495px;
+	padding:20px 10px;
+	height:405px;
+	overflow:hidden;
+}
+.img-news{
+	position:relative;
+	width:400px;
+	height:75px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.img-news .img{
+	display:block;
+	width:100px;
+	height:75px;
+	overflow:hidden;
+}
+.img-news .intro{
+	width:290px;
+	height:75px;
+	overflow:hidden;
+}
+.img-news h2{
+	width:290px;
+	height:22px;
+	font-weight: 700;
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align:center;
+}
+.img-news p{
+	height:52px;
+	width:100%;
+	overflow:hidden;
+	line-height: 17px;
+	color:#666;
+}
+.img-news .more{
+	position:absolute;
+	bottom:0px;
+	right:0;
+	line-height:15px;
+	color:#444;
+background:#e8e8e8;display:block;padding:4px 4px 4px 12px
+}
+
+.news-list span{
+	padding-left:10px;
+	color:#666;
+}
+.news-list span.time{color:#999;font-size:12px;}
+/*右*/
+.main-right{
+	width:160px;
+	height:405px;
+	overflow:hidden;
+	padding:20px 0;
+}
+.mt10{ margin-top:10px;}
+.mt5{ margin-top:5px;}
+.right-shortcut li{
+	float:left;
+	display:inline;
+	width:70px;
+	border-right:1px solid #ccc;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	color:#666;
+	margin-right:5px;
+	margin-bottom:5px;
+	background:url(http://www.just.edu.cn/statics/img/icon.png) no-repeat 0 -750px;
+}
+
+.right-shortcut li.weibo{
+	text-indent: 32px;
+	text-align: left;
+	background:url(http://www.just.edu.cn/statics/img/icon.png) no-repeat -80px -750px;
+}
+.right-shortcut a{color:#444;}
+.topic{
+	display:block;
+	width:255px;
+	overflow:hidden;
+}
+
+/*底部导航*/
+.bot-nav{
+	width:100%;
+	background:#f9f9f9;
+	padding-top:10px;
+}
+.second-nav{
+	width:100%;
+	height:36px;
+	line-height: 36px;
+	text-align: center;
+	background: url(http://www.just.edu.cn/statics/img/body-bg.png) repeat-x 0 -179px;
+padding:4px 0px 0px
+}
+.second-nav a{vertical-align: top;}
+.bot-nav dl{
+	display:block;
+	width:80px;
+	margin-right:10px;
+}
+.bot-nav dl.last{ margin-right:0;}
+.bot-nav dt{
+	background:url(http://www.just.edu.cn/statics/img/icon.png) no-repeat;
+	height:30px;
+	margin-bottom:10px;
+	padding-left:30px;
+	font: 12px/30px "微软雅黑",yahei;
+	color:#555;
+
+}
+.bot-nav dd{
+	line-height:25px;
+	text-indent:10px;
+	/* background:url(../img/gray-dot.png) left center no-repeat; */
+}
+.bot-nav dd a{color:#777;}
+.bot-nav .examinee dt,.bot-nav .guest dt{ background-position:0 -475px;}
+.bot-nav .student dt{ background-position:0 -523px; padding-left:35px;}
+.bot-nav .teacher dt{ background-position:0 -565px;}
+.bot-nav .company dt{ background-position:0 -612px; padding-left:25px;}
+.bot-nav .brother dt,.bot-nav .alumni dt{ background-position:0 -655px;}
+.bot-nav .media dt{ background-position:0 -703px;}
+.bot-nav .wei li{float:right;margin-left:8px}
+.bot-nav .wei span{text-align: left;;display:inline-block;width:32px;height:32px}
+.bot-nav .weibo{background: url(http://www.just.edu.cn/statics/img/weibo.png) left center no-repeat; height:24px; display: inline-block; line-height: 24px; padding-left:30px; text-align: left;}
+.bot-nav .qqweibo{background: url(http://www.just.edu.cn/statics/img/qqweibo.png) left center no-repeat; height:24px; display: inline-block; line-height: 24px; padding-left:30px; text-align: left;}
+.bot-nav .weixin{background: url(http://www.just.edu.cn/statics/img/weixin.png) left center no-repeat; height:24px; display: inline-block; line-height: 24px; padding-left: 30px;text-align: left;}
+
+.listbody{width: 100%;height: 433px; background: #fff;padding:10px 0px;}
+.mainleft{
+	width:250px;
+	height: auto;
+	background: #e7eff5;
+	display: inline-block;
+	padding-bottom: 20px;
+	float: left;
+}
+.mainleft .catheader{
+	height:45px;
+	background: #0061aa;
+	line-height: 45px;
+	text-align: center;
+	color:#fff;
+	font-size:14px;
+	font-weight:700;
+}
+.mainleft .catlist{height:auto;padding-left: 20px;padding-top: 10px; padding-right: 20px;}
+.mainleft .catlist ul li{ height:36px;line-height: 36px; font-size:14px; border-bottom: 1px dashed #aecbe0;background: url(../img/icon.png) -558px -54px no-repeat; padding-left: 18px;}
+.mainleft .catlist ul li.hover{background: url(http://www.just.edu.cn/statics/img/icon.png) -558px 2px no-repeat;}
+.mainleft .catlist ul li.hover a{color:#095d9c;}
+.mainleft .catlist ul li.at{background: url(http://www.just.edu.cn/statics/img/icon.png) -558px -24px no-repeat;}
+.mainleft .catlist ul li a{text-decoration: none; }
+.mainleft .catlist ul li.at a{color:#095d9c;font-weight:bold;}
+
+.mainright{width:745px;margin-left:100px; float: left;}
+.position{color: #999; height:34px; line-height: 34px; text-indent: 10px; text-align: right;}
+.position a{color:#333;}
+.newslist{padding: 10px;}
+.newslist ul li{height:32px; line-height: 32px; background: url(http://www.just.edu.cn/statics/img/gray-dot.png) left center no-repeat; padding-left: 8px; font-size:14px; border-bottom: 1px dashed #ddd; }
+.newslist ul li .time{float: right; font-size:12px;color: #888;}
+.newslist ul li a{text-decoration: none;}
+.newslist ul li a:hover{color:#095d9c;}
+
+
+.deptls ul li{border-bottom:0px;position: relative;width: 48%;float: left;/*height: 58px*/;border-bottom: 1px dotted #ccc;background: url(http://www.just.edu.cn/statics/img/gray-dot.png) 0px 16px no-repeat;line-height: 32px;padding-left: 8px;font-size: 14px;}
+.deptls ul li span.Dept{/*position: absolute;*/}
+.deptls ul li span.Dept2{/*position: absolute;left:320px;*/top:24px;font-size:12px;/*display;block*/}
+
+.cont_title{margin-top:10px;text-align: center; font-size: 24px; line-height: 180%; font-weight:bold;}
+.cont_title2{width:745px;height:45px;background:#0061aa; font-size: 16px; line-height:45px; font-weight:bold; color:#fff;text-indent: 10px;}
+.cont_title p{margin-left:20px}
+.cont_desc{text-align: right; color: #888; line-height: 30px;}
+.cont_content{line-height: 200%;font-size:14px;padding:0px 10px;}
+.cont_content table{table-layput:fixed;word-wrap:break-wrod;word-break:break-all; }
+.cont_content table td{padding:4px;}
+
+.grzx{width:725px;height:72px;background:#e7eff5;margin-top:10px}
+.grz{font-size:16px;font-family:微软雅黑;float:left;margin-left:20px}
+.grnr{width:550px;height:auto;margin-left:140px}
+.nrx{width:127px;height:auto;float:left;margin-left:10px;
+	line-height:36px;text-align:center}
+.nrx a{font-size:13px}
+
+.xiaoyou{width:725px;height:auto;background:#e7eff5;margin-top:10px;padding:4px;}
+
+
+/*footer样式表*/
+.myfooter {
+	background-color: #3c93aa;
+	font-size: 14px;
+	text-align: center;
+	clear: both;
+	font-family: "微软雅黑";
+    color: #000000;
+	line-height: 22px;
+	padding: 15px;
+}
+
+
+
+

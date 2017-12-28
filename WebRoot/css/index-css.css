@@ -1,0 +1,29 @@
+body {
+    /*background-color: #eee;*/
+}
+.btn{
+    border-radius: 0px;
+    height: 39px;
+    width: 110px;
+}
+.form-control{
+    border-radius: 0px;
+    height: 39px;
+    /* width:800px; */
+}
+.input-group{
+    margin-left: 0px;
+}
+#search-group{
+    /*border: 1px solid green;*/
+    margin:0 auto;
+    margin-top: 50px;
+    float:none;
+}
+.input-group{
+    margin-top: 30px;
+}
+.search-group-img{
+    width:591px;
+    margin: 0 auto;
+}
